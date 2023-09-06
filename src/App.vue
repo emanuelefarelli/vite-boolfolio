@@ -1,14 +1,18 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
-import AppMain from './components/AppMain.vue';
 </script>
 
 <template>
 <AppHeader/>
-<AppMain/>
+<!-- <AppMain/>-->
+  <router-view>
+
+  </router-view>
 </template>
 
 <style lang="scss">
+@use "styles/general.scss" as *;
+
 .logo {
   height: 6em;
   padding: 1.5em;
