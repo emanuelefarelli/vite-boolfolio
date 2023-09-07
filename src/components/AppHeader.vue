@@ -32,11 +32,10 @@ export default{
 
 <style scoped lang="scss">
     nav{
-        width: 70%;
-        height: 50px;
+        width: 100%;
+        height: 100px;
         background-color: grey;
         margin: 0 auto;
-        margin-top: 1rem;
         ul{
             height: 100%;
             display: flex;
